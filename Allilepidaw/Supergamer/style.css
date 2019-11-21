@@ -97,3 +97,13 @@ section {
   width: 60%;
   color: black !important;
 }
+
+.submitedCenter {
+  position: relative;
+  margin: auto;
+  width: 30%;
+  top: 300px;
+  border: 3px solid black;
+  padding: 15px;
+  color: black !Important;
+}

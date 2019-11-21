@@ -101,7 +101,12 @@
             ></textarea>
           </div>
         </form>
-        <button type="submit" class="btn btn-primary">Submit</button>
+        <button id='goButton' type="submit" class="btn btn-primary">Submit</button>
+        <script type="text/javascript">
+          document.getElementById("goButton").onclick = function () {
+              location.href = "./submited.html";
+          };
+        </script>
       </div>
       <br />
       <br />
